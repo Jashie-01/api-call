@@ -12,7 +12,7 @@ class StudentsController extends Controller
     {
         return response()
             ->json(Student::all())
-            ->setEncodingOptions(JSON_PRETTY_PRINT); //maayos ang output /para syang br
+            ->setEncodingOptions(JSON_PRETTY_PRINT);
     }
      //GET /api/students/(id)
     public function show($id)

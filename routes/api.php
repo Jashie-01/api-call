@@ -20,5 +20,6 @@ Route::patch('/students/{id}', [StudentsController::class, 'patch']);
 
 // DELETE - delete all students
 Route::delete('/students', [StudentsController::class, 'destroyAll']);
+
 // DELETE - delete one student by ID
 Route::delete('/students/{id}', [StudentsController::class, 'destroy']);
